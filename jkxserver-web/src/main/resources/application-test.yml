@@ -1,0 +1,13 @@
+server:
+  port: 8234
+web:
+  domain: http://localhost
+
+spring:
+  jpa:
+    database: oracle
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: xinjianxun
+    password: 751004
+    url: jdbc:oracle:thin:@10.12.9.189:29202:data
